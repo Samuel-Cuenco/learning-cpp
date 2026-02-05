@@ -13,12 +13,12 @@ int main() {
     cout << variable_name << endl;
 
     // Other Data Types
-    int numbers = 1;
-    float floating_point = 1.11;
-    double floating_point_2 = 1.11;
-    char character = 'a';
-    string string_of_characters = "Words";
-    bool true_or_false = true;
+    int numbers = 1; // Stores integers, without decimals
+    float floating_point = 1.11; // Stores floating point numbers, with Decimals (single precision)
+    double floating_point_2 = 1.11; // Stores double the amount of decimals than float (double precision)
+    char character = 'a'; // Stores single characters
+    string string_of_characters = "Words"; // stores text
+    bool true_or_false = true; // Stores two-state values
 
     cout << numbers << endl; // 1
     cout << floating_point << endl; // 1.11
